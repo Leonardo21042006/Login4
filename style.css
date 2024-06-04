@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    width: 944px;
+    height: 554px;
+    
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: row;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blue-box {
+    height: 554px;
+    width: 320px;
+    background-color: #001AFF;
+
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+    padding: 40px;
+}
+
+.blue-box h1 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.blue-box h2 {
+    margin-top: 56px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blue-box button {
+    margin-top: 53px;
+    width: 244px;
+    height: 72px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    outline: none;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    transition: 0.5s ease-in-out;
+}
+
+.blue-box button:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:22px 74px;
+
+    width: 100%;
+}
+
+.right-box h1 {
+    color: #001AFF; 
+    font-size: 24px;
+}
+
+.right-box h2 {
+    color: #7D7D7D;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.ad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    width: 100%;
+    height: 69px;
+    background-color: #DFDFDF;
+    border: none;
+
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+i {
+    font-size: 20px;
+}
+
+
+input {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    outline: 0;
+    margin-left: 10px;
+
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: #DFDFDF;
+}
+
+.right-box .main-btn {
+    margin-top: 40px;
+    height: 73px;
+
+    border-radius: 30px;
+    border: none;
+
+    background-color: #000000;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;    
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.main-btn:hover {
+    background-color: #1b1a1a;
+}
+
+.main-btn:active{
+    background-color: #000000;
+}
+
+.contatos {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+
+.contatos i {
+    font-size: 25px;
+    color: white;
+    cursor:pointer;
+    transition: 0.5s ease-in;
+}
+
+.contatos i:hover {
+    scale: 1.2;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width:1000px) {
+    body {
+        height: 110vh;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 820px;
+    }
+    .blue-box {
+        width: 100%;
+        height: 310px;
+        padding: 10px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blue-box h2 {
+        margin-top: 10px;
+    }
+    .blue-box button {
+        margin-top: 20px;
+    }
+    .contatos {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    body{
+        height: auto;
+    }
+    .blue-box h1{
+        font-size: 24px;
+    }
+    .main-content {
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+    .right-box {
+        padding: 20px;
+    }
+
+}
