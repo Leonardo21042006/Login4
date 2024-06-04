@@ -4,7 +4,7 @@
 ![preview](./.github/preview.png)
 
 
-[🔗 Clique aqui para acessar](https://leonardo21042006.github.io/Tela-Login-Responsive/)
+[🔗 Clique aqui para acessar](https://leonardo21042006.github.io/Tela-Login-Responsiva/)
 
 ## 🛠️ Tecnologias 
 
